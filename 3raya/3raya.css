@@ -1,0 +1,103 @@
+*{
+    background-color: #2D572C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.class1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 6%}
+
+
+
+.classbutton{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:1px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 600px;
+    margin:auto;   
+   
+}
+.cuadrado{
+    height:100%;
+    width: 100%;
+    border: 1px solid white;
+    /* border-width: 4pt; */
+    color:thistle;
+    font-size: 34pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.player{
+    font-size: 15pt;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 5cm;
+
+}
+
+#tittle{
+    font-size: 40pt;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4cm;
+}
+#marcador{
+    font-size: 30pt;
+    color:white;
+    font-weight: bold;
+    border:solid white;
+    border-width:  3px;
+    width: 3cm;
+    height: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#button2{
+    font-size: 15pt;
+    color:white;
+    font-weight: bold;
+    border:solid white;
+    border-width:  3px;
+    background-color:red;
+    width: 4cm;
+    height: 2cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button3{
+    font-size: 15pt;
+    color:white;
+    font-weight: bold;
+    border:solid white;
+    border-width:  3px;
+    background-color:red;
+    width: 4cm;
+    height: 2cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
