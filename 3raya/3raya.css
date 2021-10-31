@@ -18,22 +18,22 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap:1px;
+margin-top: 2%;
 
 }
 .grid{
     display: grid;
     grid-template-columns: auto auto auto;
     width: 600px;
+    height: 300px;
     margin:auto;   
    
 }
 .cuadrado{
     height:100%;
-    width: 100%;
     border: 1px solid white;
-    /* border-width: 4pt; */
     color:thistle;
-    font-size: 34pt;
+    font-size: 15pt;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ gap:1px;
 }
 
 .player{
-    font-size: 15pt;
+    font-size: 18pt;
     color:white;
     font-weight: bold;
     margin-bottom: 5cm;
@@ -63,13 +63,15 @@ gap:1px;
     font-size: 30pt;
     color:white;
     font-weight: bold;
-    border:solid white;
+    border: white;
+    border-style: dotted;
     border-width:  3px;
-    width: 3cm;
+    width: 3.5cm;
     height: 1cm;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1px;
 
 }
 
@@ -80,8 +82,8 @@ gap:1px;
     border:solid white;
     border-width:  3px;
     background-color:red;
-    width: 4cm;
-    height: 2cm;
+    width: 2.5cm;
+    height: 1.5cm;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +95,8 @@ gap:1px;
     border:solid white;
     border-width:  3px;
     background-color:red;
-    width: 4cm;
-    height: 2cm;
+    width: 2.5cm;
+    height: 1.5cm;
     display: flex;
     justify-content: center;
     align-items: center;
